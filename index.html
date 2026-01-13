@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MS Store</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;900&family=Changa:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Website Colors - ملف الألوان -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="html" href="free.htm">
+
+
+</head>
+
+<body>
+    <!-- Particles Container -->
+    <div class="particles-container" id="particles"></div>
+
+    <!-- Header -->
+    <header id="header">
+        <nav>
+            <a href="#home" class="logo">
+                <div class="logo-icon">
+                    <img src="image/M.gif" alt="Logo"
+                        style="width: 100%; height: 100%; object-fit: contain; border-radius: 12px;">
+                </div>
+                <span class="logo-text">MS Store</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active"><i class="fas fa-home"></i> الرئيسية</a></li>
+                <li><a href="#products"><i class="fas fa-shopping-basket"></i> المنتجات</a></li>
+                <li><a href="free.html#free_products"><i class="fas fa-shopping-basket"></i> المنتجات المجانية</a></li>
+                <!--  <li><a href="#connect"><i class="fas fa-gamepad"></i> الدخول لسيرفر</a></li>-->
+                <li><a href="#rules"><i class="fas fa-scroll"></i> قوانين المتجر</a></li>
+                <li><a href="#about_us"><i class="fas fa-microchip"></i> من نحن؟</a></li>
+                <li><a href="#admins"><i class="fas fa-users-cog"></i> الإداريين</a></li>
+                <li><a href="https://discord.gg/qZTqknwpVn" target="_blank"><i class="fas fa-shopping-cart"></i>
+                        المتجر</a>
+                </li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-subtitle">
+                    <i class="fas fa-fire"></i>
+                    <span>أفضل متجر متخصص في بيع منتجات FiveM</span>
+                </div>
+                <h1>مرحباً بك في<br>MS Store</h1>
+                <p>
+                    ارتقِ بسيرفرك إلى القمة مع MS Store – الوجهة الأولى لأصحاب سيرفرات FiveM.
+                    نقدم لك سكربتات حصرية، سيارات واقعية، ملابس وأشياء متنوعة لسيرفرك،
+                    واشتراكات رقمية بأعلى جودة وأقل الأسعار.
+                    انضم الآن إلى أكثر من 500 عميل راضٍ عن خدماتنا!
+                </p>
+
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">عميل راضٍ</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">دعم فني</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">99.9%</div>
+                        <div class="stat-label">ضمان الأداء</div>
+                    </div>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="https://discord.gg/qZTqknwpVn" target="_blank" class="btn btn-primary">
+                        <i class="fab fa-discord"></i>
+                        انضم لنا عبر الديسكورد
+                    </a>
+
+                    <a href="#products" class="btn btn-secondary">
+                        <i class="fas fa-shopping-basket"></i>
+                        المنتجات
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="hero-image-container">
+                    <div class="rotating-border"></div>
+                    <img src="image/MS.gif" alt="Server Logo" class="server-logo"
+                        style="width: 85%; height: auto; border-radius: 20px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="products" class="features fade-in-section">
+        <div class="features-container">
+
+            <h2 class="section-title">قائمة المنتجات</h2>
+            <p class="section-subtitle">اختر منتجك المفضل وتواصل معنا عبر الديسكورد لإتمام الطلب</p>
+
+            <div class="features-grid">
+
+                <div class="feature-card product-item">
+                    <div class="product-image-container">
+                        <img src="image/bmw_m5.png" alt="BMW M5 2022" class="product-img">
+                    </div>
+                    <div class="product-content">
+                        <div class="product-price">JOD 10.00</div>
+                        <h3 class="feature-title">BMW M5 2022 </h3>
+                        <p class="feature-description">
+                            صوت خاص / وزنية سفاحة / تسارع ممتاز / سعر خرافي / بدون شعارات
+                        </p>
+                        <a href="https://discord.gg/UZjgDTR4RJ" target="_blank" class="discord-btn">
+                            <span>شراء عبر تذكرة</span>
+                            <i class="fab fa-discord"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="feature-card product-item">
+                    <div class="product-image-container">
+                        <img src="image/mus_shel.png" alt="Mustang Shelby GT" class="product-img">
+                    </div>
+                    <div class="product-content">
+                        <div class="product-price">JOD 8.00</div>
+                        <h3 class="feature-title">Mustang Shelby GT</h3>
+                        <p class="feature-description">
+                            صوت خاص / وزنية سفاحة / تسارع ممتاز / سعر خرافي / بدون شعارات
+                        </p>
+                        <a href="https://discord.gg/UZjgDTR4RJ" target="_blank" class="discord-btn">
+                            <span>شراء عبر تذكرة</span>
+                            <i class="fab fa-discord"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="feature-card product-item">
+                    <div class="product-image-container">
+                        <img src="image/raptor.png" alt="Raptor 19" class="product-img">
+                    </div>
+                    <div class="product-content">
+                        <div class="product-price">JOD 10.00</div>
+
+                        <h3 class="feature-title">Raptor 19</h3>
+                        <p class="feature-description">
+                            صوت خاص / وزنية سفاحة / تسارع ممتاز / سعر خرافي / بدون شعارات
+                        </p>
+                        <a href="https://discord.gg/UZjgDTR4RJ" target="_blank" class="discord-btn">
+                            <span>شراء عبر تذكرة</span>
+                            <i class="fab fa-discord"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="feature-card product-item">
+                    <div class="product-image-container">
+                        <img src="image/demon_h.png" alt="Dodge Challenger SRT Demon " class="product-img">
+                    </div>
+                    <div class="product-content">
+
+                        <span>مع شعارات</span>
+                        <div class="product-price">JOD 7.00</div>
+
+                        <h3 class="feature-title">Dodge Challenger SRT Demon</h3>
+                        <p class="feature-description">
+                            صوت خاص / وزنية سفاحة / تسارع ممتاز / سعر خرافي
+                        </p>
+                        <a href="https://discord.gg/UZjgDTR4RJ" target="_blank" class="discord-btn">
+                            <span>شراء عبر تذكرة</span>
+                            <i class="fab fa-discord"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="feature-card product-item">
+                    <div class="product-image-container">
+                        <img src="image/demon_h.png" alt="Dodge Challenger SRT Demon " class="product-img">
+                    </div>
+                    <div class="product-content">
+
+                        <span>بدون شعارات</span>
+                        <div class="product-price">JOD 15.00</div>
+
+                        <h3 class="feature-title">Dodge Challenger SRT Demon</h3>
+                        <p class="feature-description">
+                            صوت خاص / وزنية سفاحة / تسارع ممتاز / سعر خرافي
+                        </p>
+                        <a href="https://discord.gg/UZjgDTR4RJ" target="_blank" class="discord-btn">
+                            <span>شراء عبر تذكرة</span>
+                            <i class="fab fa-discord"></i>
+                        </a>
+                    </div>
+                </div>
+                <!--  <div class="feature-card product-item">
+                    <div class="product-image-container">
+                        <img src="image/MT_Clothing_V2.jpg" alt="MT Clothing V2 " class="product-img">
+                    </div>
+                    <div class="product-content">
+
+                        <div class="product-price">JOD 10.00</div>
+
+                        <h3 class="feature-title">MT Clothing V2</h3>
+                        <p class="feature-description">
+                            Marines / Soc / SWAT / Lspd / CIA / Sheriff / Gang Unit
+                            Families / Son Of Anarchy / Scrap / ElMundo / Queitless / Vagos / MS13 / 14 Nortenos /
+                            Darkness / Last Call / Trickster / 26 Yard / Crips / 11 Street / Old School / AL-Tufahi /
+                            Yakuza /red reapers
+
+                        </p>
+                        <a href="https://discord.gg/UZjgDTR4RJ" target="_blank" class="discord-btn">
+                            <span>شراء عبر تذكرة</span>
+                            <i class="fab fa-discord"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="feature-card product-item">
+                    <div class="product-image-container">
+                        <img src="image/MT_Clothing_V3.jpg" alt="MT Clothing V3 " class="product-img">
+                    </div>
+                    <div class="product-content">
+
+                        <div class="product-price">JOD 15.00</div>
+
+                        <h3 class="feature-title">MT Clothing V3</h3>
+                        <p class="feature-description">
+                            Marines / Soc / SWAT / Lspd / CIA / DDO / BRI / Sheriff / Gang Unit
+                            Families / Son Of Anarchy / Scrap / ElMundo / Queitless / Vagos / MS13 / 14 Nortenos /
+                            Darkness / Last Call / Trickster / 26 Yard / Crips / 11 Street / Old School / AL-Tufahi /
+                            Yakuza /red reapers / The Myers / Death Line / 187 Gang / Dragons
+
+                        </p>
+                        <a href="https://discord.gg/UZjgDTR4RJ" target="_blank" class="discord-btn">
+                            <span>شراء عبر تذكرة</span>
+                            <i class="fab fa-discord"></i>
+                        </a>
+                    </div>
+            </div>
+                <div class="feature-card product-item">
+                    <div class="product-image-container">
+                        <img src="image/WeedLab_Script.jpg" alt="WeedLab Script" class="product-img">
+                    </div>
+                    <div class="product-content">
+                        <div class="product-price">JOD 20.00</div>
+                        <span class="soon-badge-text">قريباً | SOON</span>
+                        <h3 class="feature-title">WeedLab Script</h3>
+                        <p class="feature-description">
+                            مربوط مع lb-phone
+                            -
+                            فيه كل مابات الحشيش و العصابات
+                            -
+                            سكربت اوبن سورس بالكامل
+                        </p>
+                        <a href="https://discord.gg/UZjgDTR4RJ" target="_blank" class="discord-btn">
+                            <span>شراء عبر تذكرة</span>
+                            <i class="fab fa-discord"></i>
+                        </a>
+                    </div>
+                </div>-->
+                <div class="feature-card product-item">
+                    <div class="product-image-container">
+                        <img src="image/Cia_Pack.png" alt="CIA Pack" class="product-img">
+                    </div>
+                    <div class="product-content">
+                        <!--  <div class="product-price">JOD 7.00</div>-->
+                        <span class="soon-badge-text">قريباً | SOON</span>
+                        <h3 class="feature-title">CIA PAck</h3>
+                        <p class="feature-description">
+                            قريباً | SOON
+                        </p>
+                        <a href="https://discord.gg/UZjgDTR4RJ" target="_blank" class="discord-btn">
+                            <span>شراء عبر تذكرة</span>
+                            <i class="fab fa-discord"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="feature-card product-item">
+                    <div class="product-image-container">
+                        <img src="image/canva_logo.png" alt="Canva Pro" class="product-img">
+                    </div>
+                    <div class="product-content">
+                        <div class="product-price">JOD 7.00</div>
+                        <h3 class="feature-title">اشتراك كانفا برو</h3>
+                        <p class="feature-description">
+                            تفعيل رسمي على إيميلك الشخصي بجميع مميزات البريميوم والذكاء الاصطناعي.
+                        </p>
+                        <a href="https://discord.gg/UZjgDTR4RJ" target="_blank" class="discord-btn">
+                            <span>شراء عبر تذكرة</span>
+                            <i class="fab fa-discord"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="feature-card product-item">
+                    <div class="product-image-container">
+                        <img src="image/youtube_prem.jpg" alt="YouTube Premium" class="product-img">
+                    </div>
+                    <div class="product-content">
+                        <!--  <div class="product-price">JOD 10.00</div> -->
+                        <span class="soon-badge-text">قريباً | SOON</span>
+                        <h3 class="feature-title">يوتيوب بريميوم</h3>
+                        <p class="feature-description">
+                            مشاهدة بدون إعلانات، تشغيل في الخلفية، وتحميل الفيديوهات بضمان كامل.
+                        </p>
+                        <a href="https://discord.gg/UZjgDTR4RJ" target="_blank" class="discord-btn">
+                            <span>شراء عبر تذكرة</span>
+                            <i class="fab fa-discord"></i>
+                        </a>
+                    </div>
+                </div>
+    </section>
+    <!--  <section id="features" class="features fade-in-section">
+        <div class="features-container">
+            <h2 class="section-title">المنتجات</h2>
+            <p class="section-subtitle">
+                نقدم لك أفضل تجربة لعب مع مميزات حصرية لن تجدها في أي مكان آخر
+            </p>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="feature-title">حماية قوية</h3>
+                    <p class="feature-description">
+                        نظام حماية متطور ضد المخترقين والمودرز لضمان تجربة لعب عادلة للجميع
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-wallet"></i>
+                    </div>
+                    <h3 class="feature-title">اقتصاد واقعي</h3>
+                    <p class="feature-description">
+                        نظام اقتصادي متوازن مع وظائف متنوعة وفرص ربح حقيقية داخل السيرفر
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="feature-title">مجتمع نشط</h3>
+                    <p class="feature-description">
+                        مجتمع عربي كبير ونشط مع فعاليات دورية ومسابقات بجوائز قيمة
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3 class="feature-title">دعم 24/7</h3>
+                    <p class="feature-description">
+                        فريق دعم فني محترف متاح على مدار الساعة للإجابة على استفساراتك
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3 class="feature-title">أداء عالي</h3>
+                    <p class="feature-description">
+                        خوادم قوية بأحدث التقنيات لضمان تجربة لعب سلسة بدون تقطيع
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <h3 class="feature-title">مكافآت يومية</h3>
+                    <p class="feature-description">
+                        احصل على مكافآت يومية وهدايا حصرية فقط بتسجيل الدخول للسيرفر
+                    </p>
+                </div>
+            </div>
+        </div>
+     </section>-->
+    <!-- Connect Section -->
+    <!--  <section id="connect" class="connect-section fade-in-section">
+        <div class="connect-container">
+            <h2 class="connect-title">جاهز للانضمام؟</h2>
+            <p class="connect-description">
+                ابدأ مغامرتك الآن في أفضل سيرفر FiveM عربي! انقر على الزر أدناه للانضمام إلى السيرفر أو انضم لمجتمعنا
+                على دسكورد
+            </p>
+            <div class="connect-buttons">
+                <button class="btn btn-primary connect-btn" onclick="connectToServer()">
+                    <i class="fas fa-gamepad"></i>
+                    Connect FiveM Server
+                </button>
+                <button class="btn btn-secondary connect-btn" onclick="joinDiscord()">
+                    <i class="fab fa-discord"></i>
+                    انضم لدسكورد
+                </button>
+            </div>
+        </div>
+    </section>
+-->
+    <!--MS Store Rules-->
+    <section id="rules" class="rules-section fade-in-section">
+        <div class="rules-container">
+            <h2 class="rules-main-title"><i class="fas fa-scroll"></i> قوانين متجر MS Store</h2>
+            <div class="rules-grid">
+
+                <div class="rule-card">
+                    <div class="rule-header">
+                        <i class="fas fa-cube"></i>
+                        <h3>أولاً: طبيعة المنتجات</h3>
+                    </div>
+                    <p>جميع المنتجات والخدمات المقدَّمة هي خدمات رقمية خاصة بلعبة فايف إم فقط (سيارات – سكربتات –
+                        موديلات – أصوات – إضافات…). لا يتم تسليم أي منتجات مادية.</p>
+                </div>
+
+                <div class="rule-card">
+                    <div class="rule-header">
+                        <i class="fas fa-money-check-alt"></i>
+                        <h3>ثانيًا: الدفع والاسترجاع</h3>
+                    </div>
+                    <p>طرق الدفع: PayPal | Visa | CLIQ (داخل الأردن فقط). بما أن المنتجات رقمية، لا يتم استرجاع المبلغ
+                        بعد الاستلام إلا في حال تعذر تسليم المنتج.</p>
+                </div>
+
+                <div class="rule-card">
+                    <div class="rule-header">
+                        <i class="fas fa-user-clock"></i>
+                        <h3>ثالثًا: الدعم الفني والضمان</h3>
+                    </div>
+                    <p>نحن معك دائماً؛ مدة الرد على التذاكر الرسمية تتراوح من 24 إلى 72 ساعة حسب ضغط الطلبات.</p>
+                </div>
+
+                <div class="rule-card">
+                    <div class="rule-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>رابعاً: مسؤوليات العميل</h3>
+                    </div>
+                    <p>إدارة المتجر غير مسؤولة عن أي مشاكل تقنية ناتجة عن تعديل العميل للملفات أو المنتجات بعد استلامها.
+                    </p>
+                </div>
+
+                <div class="rule-card">
+                    <div class="rule-header">
+                        <i class="fas fa-file-signature"></i>
+                        <h3>خامسًا: شروط الطلب</h3>
+                    </div>
+                    <p>بمجرد الشراء، أنت توافق تماماً على قوانين MS Store. يحق للإدارة تعديل القوانين في أي وقت دون
+                        إشعار مسبق.</p>
+                </div>
+
+                <div class="rule-card warning">
+                    <div class="rule-header">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>سادسًا: حقوق الاستخدام</h3>
+                    </div>
+                    <p>يمنع منعاً باتاً: إعادة البيع، النشر خارج سيرفر العميل، أو إرسال الملفات لطرف ثالث. أي تسريب يؤدي
+                        لحظر دائم.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- about us -->
+    <section id="about_us" class="about_us-section fade-in-section">
+        <div class="about_us-container">
+            <h2 class="about_us-main-title"><i class="fas fa-file-signature"></i> من نحن؟</h2>
+
+            <div class="about_us-content-wrapper">
+                <div class="about_us-card">
+                    <div class="about_us-header">
+                        <i class="fas fa-microchip"></i>
+                        <h3>MS Store</h3>
+                    </div>
+                    <div class="about_us-body">
+                        <p>
+                            واجهتكم الأولى والمتكاملة لكل ما يخص عالم <strong>FiveM</strong> والخدمات الرقمية. نحن في
+                            <strong>MS Store</strong> نجمع بين الإبداع البرمجي وتطوير المحتوى، حيث نقدم
+                            <strong>سكربتات حصرية</strong>، <strong>سيارات وملابس معدلة</strong> بدقة عالية، بجانب توفير
+                            <strong>حلول رقمية</strong> واشتراكات ترفيهية وتعليمية مثل (Canva Pro & YouTube Premium)
+                            بأفضل الأسعار.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admins Section -->
+    <section id="admins" class="admins-section fade-in-section">
+        <div class="admins-container">
+            <h2 class="section-title">فريق الإدارة</h2>
+            <p class="section-subtitle">
+                تعرف على فريقنا المحترف الذي يعمل على مدار الساعة لضمان أفضل تجربة لك
+            </p>
+
+            <div class="admins-grid">
+                <!-- Admin Card 1 - لإضافة إداري جديد، انسخ من هنا -->
+                <div class="admin-card">
+                    <div class="admin-image-wrapper">
+                        <div class="admin-image-border"></div>
+                        <img src="image/Mahdee.jpg" alt="Admin" class="admin-image">
+                    </div>
+                    <span class="admin-rank">
+                        <i class="fas fa-crown"></i>
+                        Owner
+                    </span>
+                    <h3 class="admin-name">Mahdee Semrein</h3>
+                    <div class="admin-status">
+                        <span class="status-indicator"></span>
+                        متصل الآن
+                    </div>
+                </div>
+                <!-- إلى هنا -->
+
+                <!-- Admin Card 2 -->
+                <!--          <div class="admin-card">
+                    <div class="admin-image-wrapper">
+                        <div class="admin-image-border"></div>
+                        <img src="https://i.pravatar.cc/300?img=33" alt="Admin" class="admin-image">
+                    </div>
+                    <span class="admin-rank">
+                        <i class="fas fa-star"></i>
+                        Co-Owner
+                    </span>
+                    <h3 class="admin-name">خالد علي</h3>
+                    <div class="admin-status">
+                        <span class="status-indicator"></span>
+                        متصل الآن
+                    </div>
+                </div>
+-->
+                <!-- Admin Card 3 -->
+                <!--               <div class="admin-card">
+                    <div class="admin-image-wrapper">
+                        <div class="admin-image-border"></div>
+                        <img src="https://i.pravatar.cc/300?img=68" alt="Admin" class="admin-image">
+                    </div>
+                    <span class="admin-rank">
+                        <i class="fas fa-shield-alt"></i>
+                        Admin
+                    </span>
+                    <h3 class="admin-name">محمد سعيد</h3>
+                    <div class="admin-status">
+                        <span class="status-indicator"></span>
+                        متصل الآن
+                    </div>
+                </div>
+-->
+                <!-- 
+                ===================================
+                لإضافة إداري جديد، انسخ الكود التالي:
+                ===================================
+                
+                <div class="admin-card">
+                    <div class="admin-image-wrapper">
+                        <div class="admin-image-border"></div>
+                        <img src="رابط_الصورة" alt="Admin" class="admin-image">
+                    </div>
+                    <span class="admin-rank">
+                        <i class="fas fa-crown"></i>
+                        الرتبة هنا
+                    </span>
+                    <h3 class="admin-name">اسم الإداري</h3>
+                    <div class="admin-status">
+                        <span class="status-indicator"></span>
+                        متصل الآن
+                    </div>
+                </div>
+                
+                ===================================
+                -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Store CTA Section -->
+    <!-- <section class="store-cta fade-in-section">
+        <div class="store-container">
+            <div class="store-icon">
+                <i class="fas fa-shopping-bag"></i>
+            </div>
+            <h2 class="store-title">زُر متجرنا الإلكتروني</h2>
+            <p class="store-description">
+                اكتشف عروضنا الحصرية! احصل على باقات VIP، سيارات فاخرة، وأسلحة قوية من متجرنا الإلكتروني بأسعار تنافسية
+            </p>
+            <a href="https://store.example.com" target="_blank" class="btn btn-store">
+                <i class="fas fa-shopping-cart"></i>
+                تصفح المتجر الآن
+            </a>
+        </div>
+    </section>
+-->
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <div class="footer-logo-icon">
+                        <img src="image/M.gif" alt="Logo"
+                            style="width: 100%; height: 100%; object-fit: contain; border-radius: 12px;">
+                    </div>
+                    <span class="footer-logo-text">MS Store</span>
+                </div>
+                <p class="footer-description">
+                    كل ما يحتاجه سيرفرك من سكربتات، سيارات، ملابس، واشتراكات رقمية تجدونه هنا في MS Store!
+                </p>
+
+                <div class="footer-social">
+                    <a href="https://discord.gg/qZTqknwpVn" class="social-link" aria-label="Discord">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                    <!--  <a href="#" class="social-link" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>-->
+                    <a href="https://www.youtube.com/@MS_Store_JD" class="social-link" aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h4 class="footer-title">روابط سريعة</h4>
+                <div class="footer-links">
+                    <a href="#home" class="footer-link">
+                        <i class="fas fa-angle-left"></i>
+                        الرئيسية
+                    </a>
+                    <a href="#products" class="footer-link">
+                        <i class="fas fa-angle-left"></i>
+                        المنتجات
+                    </a>
+                    <!--  <a href="#connect" class="footer-link">
+                        <i class="fas fa-angle-left"></i>
+                        الدخول للسيرفر
+                    </a>-->
+                    <a href="#admins" class="footer-link">
+                        <i class="fas fa-angle-left"></i>
+                        الإداريين
+                    </a>
+                    <a href="https://discord.gg/qZTqknwpVn" class="footer-link">
+                        <i class="fas fa-angle-left"></i>
+                        المتجر
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h4 class="footer-title">الدعم</h4>
+                <div class="footer-links">
+                    <!--    <a href="#" class="footer-link">
+                        <i class="fas fa-angle-left"></i>
+                        مركز المساعدة
+                    </a>
+                    <a href="#" class="footer-link">
+                        <i class="fas fa-angle-left"></i>
+                        الأسئلة الشائعة
+                    </a>-->
+                    <a href="#rules" class="footer-link">
+                        <i class="fas fa-angle-left"></i>
+                        القوانين
+                    </a>
+                    <a href="https://discord.gg/UZjgDTR4RJ" class="footer-link">
+                        <i class="fas fa-angle-left"></i>
+                        تواصل معنا
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h4 class="footer-title">معلومات</h4>
+                <div class="footer-links">
+                    <a href="#about_us" class="footer-link">
+                        <i class="fas fa-angle-left"></i>
+                        من نحن
+                    </a>
+                    <!--  <a href="#rules" class="footer-link">
+                        <i class="fas fa-angle-left"></i>
+                        سياسة الخصوصية
+                    </a>-->
+                    <a href="#rules" class="footer-link">
+                        <i class="fas fa-angle-left"></i>
+                        شروط الاستخدام
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>
+                &copy; 2026 <strong>MS Store</strong> - جميع الحقوق محفوظة
+            </p>
+            <p style="margin-top: 10px;">
+                صُمم بكل حب <i class="fas fa-heart" style="color: var(--primary-orange);"></i> لدعم أفضل سيرفرات FiveM
+                والمبرمجين العرب والأجانب.
+            </p>
+            <p style="margin-top: 10px;">
+                <strong>
+                    بنيتُ هذا العالم بالكود، وأديره بالشغف Mahdee Semrein - المطور والمالك
+                    / Building with code, leading Building with code, leading with passion Mahdee Ssemrein - Dev & Owner
+                </strong>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+        // Particle System
+        function createParticles() {
+            const container = document.getElementById('particles');
+            const particleCount = 60;
+
+            for (let i = 0; i < particleCount; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+
+                // Random size
+                const size = Math.random() * 4 + 2;
+                particle.style.width = size + 'px';
+                particle.style.height = size + 'px';
+
+                // Random position
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.bottom = '-10px';
+
+                // Random animation duration and delay
+                particle.style.animationDuration = (Math.random() * 10 + 10) + 's';
+                particle.style.animationDelay = Math.random() * 5 + 's';
+
+                container.appendChild(particle);
+            }
+        }
+
+        // Header Scroll Effect
+        const header = document.getElementById('header');
+        let lastScroll = 0;
+
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+
+            if (currentScroll > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+
+            lastScroll = currentScroll;
+        });
+
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const navLinks = document.getElementById('navLinks');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            const icon = mobileMenuBtn.querySelector('i');
+
+            if (navLinks.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+            } else {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
+        });
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                const icon = mobileMenuBtn.querySelector('i');
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            });
+        });
+
+        // Smooth Scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    const offsetTop = target.offsetTop - 80;
+                    window.scrollTo({
+                        top: offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Active Navigation Link
+        const sections = document.querySelectorAll('section[id]');
+        const navLinksAll = document.querySelectorAll('.nav-links a[href^="#"]');
+
+        function updateActiveLink() {
+            const scrollPosition = window.pageYOffset + 200;
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                const sectionId = section.getAttribute('id');
+
+                if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                    navLinksAll.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === `#${sectionId}`) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            });
+        }
+
+        window.addEventListener('scroll', updateActiveLink);
+
+        // Scroll Animations
+        const fadeInElements = document.querySelectorAll('.fade-in-section');
+
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        fadeInElements.forEach(element => {
+            observer.observe(element);
+        });
+
+        // Scroll to Top Button
+        const scrollTopBtn = document.getElementById('scrollTop');
+
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 500) {
+                scrollTopBtn.classList.add('visible');
+            } else {
+                scrollTopBtn.classList.remove('visible');
+            }
+        });
+
+        scrollTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        //---------------------------------------------------------------------------------------------------------------------------------        
+        //يرجى عدم الحذف
+        // Connect to Server Function
+        //function connectToServer() {
+        //    // استبدل بـ IP السيرفر الخاص بك
+        //    const serverIP = 'YOUR_SERVER_IP:30120';
+        //    window.location.href = `fivem://connect/yo9j55`;
+
+        // Alternative: Show alert with IP
+        // alert(`IP السيرفر: ${serverIP}\n\nانسخ الـ IP والصقه في FiveM`);
+        //  }
+
+        // Join Discord Function
+        //  function joinDiscord() {
+        // استبدل برابط دسكورد الخاص بك
+        //      const discordLink = 'https://discord.gg/qZTqknwpVn';
+        //      window.open(discordLink, '_blank');
+
+        // Alternative: Show alert
+        // alert(`رابط دسكورد: ${discordLink}`);
+        // }
+        //---------------------------------------------------------------------------------------------------------------------------------        
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            createParticles();
+            updateActiveLink();
+        });
+
+        // Parallax Effect
+        document.addEventListener('mousemove', (e) => {
+            const shapes = document.querySelectorAll('.shape');
+            const mouseX = e.clientX / window.innerWidth;
+            const mouseY = e.clientY / window.innerHeight;
+
+            shapes.forEach((shape, index) => {
+                const speed = (index + 1) * 30;
+                const x = (mouseX - 0.5) * speed;
+                const y = (mouseY - 0.5) * speed;
+                shape.style.transform = `translate(${x}px, ${y}px)`;
+            });
+        });
+
+        // Prevent right-click (optional)
+        // document.addEventListener('contextmenu', (e) => e.preventDefault());
+
+        // Disable F12 and Inspect Element (optional)
+        // document.addEventListener('keydown', (e) => {
+        //     if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I')) {
+        //         e.preventDefault();
+        //     }
+        // });
+    </script>
+</body>
+
+</html>
